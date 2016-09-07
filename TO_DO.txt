@@ -1,0 +1,9 @@
+Before committing need to fix forge database tables.
+Users Table
+change columns:
+name = last_name
+add columns:
+first_name
+phone
+
+Lock down Ckeditor for All Storys

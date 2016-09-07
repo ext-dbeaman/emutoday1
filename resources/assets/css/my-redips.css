@@ -1,0 +1,125 @@
+/*
+
+Darko Bunic
+http://www.redips.net/
+Apr, 2013.
+
+*/
+
+body {
+    margin: 0px;
+}
+
+/* drag container*/
+#redips-drag {
+    border: 2px dashed LightBlue;
+    /*width: 1200px;*/
+    /*margin: auto;*/
+}
+        /* left container */
+        #redips-drag #left {
+            float: left;
+            width: 600px;
+        }
+        /* right container */
+        #redips-drag #right {
+            width: 440px;
+              display: table;
+            table-layout: auto;
+            /* align div to the right */
+            margin-left: auto;
+
+        }
+        /* right container */
+        #redips-drag #right .four-stories-bar {
+            height: 100px;
+
+
+        }
+
+/* DIV object */
+.redips-drag {
+    margin: auto;
+    text-align: center;
+    width: 77px;
+    height: 25px;
+    line-height: 25px;
+    background-color: white;
+    font-size: 10pt; /* needed for cloned object */
+    /* round corners */
+    border-radius: 4px; /* Opera, Chrome */
+    -moz-border-radius: 4px; /* FF */
+    margin-bottom: 2px;
+}
+
+/* tables */
+div#redips-drag table {
+
+    border-collapse: collapse;
+    margin: 5px;
+}
+    /* table cells */
+    div#redips-drag td {
+        border: 1px solid white;
+        text-align: center;
+        font-size: 10pt;
+        padding: 0;
+    }
+    table#table1 td {
+        height: 40px;
+    }
+    table#table1 td.redips-mark.story-title {
+        text-align: left;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    table#table2 td {
+        background-color: #eee;
+        /*height: 122px;
+        width: 100px;*/
+    }
+    /*table#story-front-table td {
+        background-color: #eee;
+        height: 122px;
+        width: 100px;
+    }*/
+
+    table#story-front-table td.front-view {
+        background-color: #eee;
+        height: 122px;
+        width: "100%";
+    }
+    table#story-front-table td.front-btn {
+        background-color: #009900;
+        height: 80px;
+        width: "100%";
+    }
+/* message below tables */
+#message {
+    padding-left: 10px;
+    color: #6A93D4;
+    height: 100px;
+    padding-top: 20px;
+}
+
+/* single content cells (with clone objects on the left) */
+.redips-single {
+    background-color: #e0e0e0;
+}
+
+/* trash cell */
+.redips-trash {
+    color: white;
+    background-color: SteelBlue;
+    height: 26px;
+}
+.div-top-rgt {
+    height  : 122px;
+    width   : 122px;
+    position: "relative";
+}
+.div-top-rgt input.btn-edit {
+    position: "absolute";
+    top:0;
+    right:0;
+}

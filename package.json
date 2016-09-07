@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "browser": {
+    "Draggable": "./node_modules/gsap/src/uncompressed/utils/Draggable.js"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.13.0",
+    "bootstrap-sass": "^3.3.0",
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "laravel-elixir-browserify-official": "^0.1.2",
+    "laravel-elixir-vue": "^0.1.1",
+    "laravel-elixir-vueify": "^1.0.3",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "admin-lte": "^2.3.3",
+    "bootstrap": "^3.3.6",
+    "bulma": "^0.1.2",
+    "flatpickr": "^1.9.1",
+    "font-awesome": "^4.6.3",
+    "foundation-datepicker": "^1.5.3",
+    "foundation-sites": "^6.2.3",
+    "gsap": "^1.19.0",
+    "milligram": "^1.1.0",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.4",
+    "motion-ui": "^1.2.2",
+    "select2": "^4.0.3",
+    "vanilla-text-mask": "^0.16.2",
+    "vue-awesome": "^0.3.0",
+    "vue-bulma": "0.0.35",
+    "vue-bulma-datepicker": "^2.0.1",
+    "vue-charts": "^0.1.14",
+    "vue-dragula": "^1.0.4",
+    "vue-resource": "^0.9.1",
+    "vue-select": "^1.3.3",
+    "vuex": "^1.0.0-rc.2"
+  }
+}

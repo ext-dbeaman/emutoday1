@@ -1,0 +1,436 @@
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) {
+
+} /* min-width 1921px, xxlarge screens */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+#profiles-list {
+    padding: 0.8rem 0.6rem;
+}
+#news-story-bar, #listing-bar{
+    padding: .8rem .6rem 0 .6rem;
+}
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+ .featurepadding{
+    padding-left: 0;
+}
+#four-stories-bar{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+#four-stories-bar .manageleftpadding{
+    padding-left: 0;
+}
+#tier2-nav ul{
+    font-size: .73rem;
+}
+
+#tier3-nav ul{
+    font-size: .72rem;
+}
+#tier3-nav ul li a{
+     padding: 0 .1rem;
+}
+
+#logo-box {
+    background-color: #0f654a;
+    height: auto;
+    padding: 1.4rem 1rem 1.9rem;
+    position: absolute;
+    z-index: 200;
+}
+#tier1-nav ul {
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+#tier1-nav ul li:not(.search-area){
+    display: none;
+}
+
+#tier2-nav ul{
+}
+#tier2-nav ul li a{
+    padding: 0 .1rem 0 .5rem;
+}
+#featured-text{
+  padding-top: 1rem;
+}
+#featured-text p{
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+#featured-text h3 {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-top: 0;
+}
+#base-bar .row, #base-message-bar .row{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+#newshub-headlines-front ul li a{
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+ul.social-icons {
+    float:left;
+}
+.featured-content-block span.truemu{
+	display: none;
+}
+#news-story-bar, #listing-bar {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin: 0;
+}
+#five-events-bar li:nth-child(n+4){
+    display: none;
+}
+.manageleftpadding{
+    padding-left: .6rem;
+}
+.managehorizontalpadding{
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+#profile-text-over-image-box{
+    width: 50%;
+    top: 38%;
+    padding: 1.3rem 1.2rem 1rem;
+}
+#profile-text-over-image-box p{
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    line-height: 1.1rem;
+}
+#student-feature h4{
+    line-height: 1.2rem;
+    margin-top: 1rem;
+}
+#student-feature p{
+    line-height: 1.2rem;
+    font-size: .9rem;
+}
+/*Magazine*/
+#magazine-text-over-image-box{
+    top: 41%;
+}
+#magazine-text-over-image-box h2{
+    font-size: 4.0rem;
+    font-weight: 600;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+    line-height: 4.3rem;
+}
+#magazine-text-over-image-box p{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin: 0 0rem;
+    font-weight: 600;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+}
+.magazine-details p.button-container {
+    width: 50%;
+}
+.row.collapse > .columns.cover-box {
+    padding-right: 1rem;
+}
+.panel.image-caption{
+    width: 48%;
+    max-width: 48%;
+}
+#connection-bar.magazine-block #tier2-nav ul, #connection-bar.magazine-block #tier3-nav ul {
+    float: left;
+}
+#tier1-nav h3.magazine-main-title{
+    display: block;
+    font-size: 2.3rem;
+    }
+#tier1-nav h3.magazine-main-title span.magazine-descriptor{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    }
+.magazine-descriptor-small{
+    display: none;
+    }
+#story-content #story-listing p{
+    font-size: .9rem;
+    line-height: 1.2rem;
+    }
+.current-issue-padding{
+    padding: .8rem 1rem 1rem;
+}
+
+
+
+
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen { }
+@media only screen and (min-width: 40.063em) and (max-width: 60em) {
+
+
+#logo-box{
+    padding: .1rem .6rem 0rem;
+}
+#logo-box img.emu{
+    display: block;
+    padding-top: 1.05rem;
+}
+#logo-box img.full-logo{
+    display: none;
+}
+ul.social-icons {
+    float:left;
+}
+
+
+
+
+/*#newshub-calendar-front li p.datecontent-box{
+    margin-top: 0rem;
+} */
+
+}
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+
+.featurepadding{
+    padding-left: 0;
+}
+ul.social-icons {
+    float:left;
+}
+#title-space  {
+    height: 20rem;
+}
+.manageleftpadding{
+    padding-left: 1rem;
+}
+
+#logo-box{
+    padding: .3rem .6rem 0rem;
+}
+#logo-box img.block-e{
+    display: block;
+}
+#logo-box img.full-logo{
+    display: none;
+}
+#tier1-nav ul {
+    font-size: 1rem;
+    padding: 0rem 1rem .2rem 0;
+    float: left;
+}
+#tier1-nav ul li:not(.search-area){
+    display: none;
+}
+#tier1-nav ul li.menu-area {
+    display: inline;
+    padding-left: .1rem;
+}
+#tier1-nav ul li a{
+    padding: 0 .3rem 0 0;
+}
+#tier1-nav h3{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: .3rem 0 .2rem 0;
+    padding: 0;
+}
+#tier1-nav h3 span.first-word{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+#tier2-nav ul{
+    display: none;
+}
+#featured-text{
+  padding-top: .8rem;
+}
+#featured-text p{
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+#featured-text h3 {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-top: 0;
+}
+ #four-stories-bar a.button {
+    padding: .3rem .6rem;
+}
+#four-stories-bar{
+    padding: .8rem 1rem;
+}
+#four-stories-bar .manageleftpadding{
+    padding-left: 0;
+}
+#base-bar .row, #base-message-bar .row{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+#newshub-headlines-front ul li a{
+    font-size: .9rem;
+   line-height: 1.3rem;
+}
+#newshub-headlines-front ul{
+    margin-bottom: 1rem;
+}
+.publish-date {
+    float: left;
+    width: 100%;
+}
+#news-story-bar, #listing-bar {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin: 0;
+}
+.managehorizontalpadding{
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+#calendar-bar h3.toptitle{
+    margin-top: 0;
+}
+#five-events-container{
+    display: none;
+}
+#profile-text-over-image-box{
+    width: 50%;
+    top: 45%;
+    padding: .4rem .8rem 0rem;
+}
+#profile-text-over-image-box p{
+    line-height: 1rem;
+    font-size:.9rem;
+    }
+#profile-text-over-image-box p:first-child{
+  display: none;
+}
+#student-feature h4{
+    line-height: 1.3rem;
+    margin-top: 0rem;
+}
+/*Magazine*/
+#magazine-text-over-image-box{
+    /*top: 4%;*/
+    position: relative;
+    text-align:left;
+    padding-left: 1rem;
+    padding-top: .5rem;
+     padding-bottom: .0;
+}
+#magazine-text-over-image-box a{
+         color: #333;
+    }
+#magazine-text-over-image-box h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-shadow: none;
+    line-height: 2rem;
+    color: #333;
+}
+#magazine-text-over-image-box p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 0 0rem;
+    font-weight: normal;
+    color: #333;
+    text-shadow: none;
+}
+.centered-main-title {
+    padding: 0;
+}
+.magazine-details{
+    border-top: 1px solid #ccc;
+    padding-top:.5rem;
+    }
+.magazine-details p.button-container {
+    width: 100%;
+}
+.row.collapse > .columns.cover-box {
+    padding-right: 1rem;
+}
+.row.collapse > .columns.photo-feature-text {
+    padding-left: 0rem;
+    margin-top: .8rem;
+}
+img.topic-image.contributor {
+    width: 100%;
+    }
+p.author{
+    margin-bottom: 0;
+    }
+.panel.image-caption{
+    width: 100%;
+    max-width: 100%;
+    float; left;
+    margin-bottom: .8rem;
+    padding-bottom: .8rem;
+    border-bottom: 1px solid #ccc;
+}
+img.topic-image.magazine-cover {
+    display: none;
+    }
+.addthis.magazine-top{
+    padding-top: 0rem;
+    float: left;
+    padding-left: 1rem;
+}
+#magazine-feature .row.photo-feature-section{
+    padding-bottom: 0;
+    }
+#news-story-bar.magazine-story .magazine-titlebar+h3{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.25rem;
+}
+#tier1-nav h3.magazine-main-title{
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+}
+#tier1-nav h3.magazine-main-title span.magazine-descriptor{
+    display: none;
+    }
+.magazine-descriptor-small{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    }
+#logo-box-magazine a img{
+   display: none;
+    }
+.magazine-story #cover-grouping, .magazine-story #story-listing{
+    margin-top: .6rem;
+    }
+.current-issue-padding{
+    padding: 0rem 1rem 1rem;
+}
+.story-text-teaser{
+    margin-top: 1rem;
+    padding-left: 0;
+    }
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */

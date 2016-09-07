@@ -1,0 +1,92 @@
+
+.content-header > .breadcrumb {
+  float: left;
+  background: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding: 7px 5px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  border-radius: 2px;
+}
+ol.breadcrumb {
+    margin: 0;
+    padding:0;
+    background-color: transparent;
+}
+section.content, section.content-header {
+    padding: 8px;
+}
+.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+img.better-thumb {
+    vertical-align: top;
+}
+.box-head-info {
+    display: inline-block;
+}
+/*.login-box,
+.register-box {
+   width: 100%;
+  margin: 7% auto;
+}*/
+
+
+/*div .input-group {
+    margin-bottom: 2px;
+}
+
+textarea .teaser,
+.input-group .teaser {
+  height: 100px;
+  min-height: 100px;
+}
+
+table tbody tr.isfuture {
+    background-color: #2199e8;
+}
+table tbody tr.iscurrent {
+    background-color: #e6e6e6;
+}
+table tbody tr.ispast {
+    background-color: #ffae00;
+}
+table tbody tr.isproblem {
+    background-color: #ec5840;
+}
+table thead th, table thead td, table tfoot th, table tfoot td {
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+table thead, table tfoot {
+    background: #f9f9f9;
+    color: #333333;
+}
+th {
+    background-color: #005A31;
+    color: white;
+}
+.table {
+    border: 1px solid #005A31;
+    margin-top: 0.3rem;
+}*/
+/*.header {
+  padding: 10rem 0;
+}
+
+[data-sticky] {
+  width: 100%; }
+
+.top-bar {
+  padding: 2rem;
+  transition: padding .25s ease; }
+
+.is-stuck .top-bar {
+  padding: 1rem;
+  transition: padding .25s ease; }*/

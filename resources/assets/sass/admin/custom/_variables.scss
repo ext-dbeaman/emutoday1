@@ -1,0 +1,26 @@
+$brand-primary:				#005A31!default;
+
+//** Global textual link color.
+$link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      #A8CD1B !default;
+//** Link hover decoration.
+$link-hover-decoration: none !default;
+//** Border color for inputs on focus
+$input-border-focus:             #A8CD1B !default;
+
+
+$table-bg-accent:    	#dff0d8	!default; //#0f654a
+$table-bg-hover:      #CBE32D !default;
+$table-bg-active:     $table-bg-hover !default;
+
+//** Border color for table and cell borders.
+$table-border-color:            #005A31 !default;
+
+//** `.form-group` margin
+$form-group-margin-bottom:       6px !default;
+//
+// #005A31
+// #A8CD1B
+// #CBE32D
+// #F3FAB6
